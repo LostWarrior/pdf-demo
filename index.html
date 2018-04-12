@@ -7,8 +7,13 @@
 	<script src="libs/web/viewer.js"></script>
 </head>
 <body>
-	<canvas id="pdf-canvas"></canvas>
-	<script src="app.js"></script>
+	<a id="pdf-render" href="libs/web/viewer.html?file=../../pdfs/notes.pdf">Open yourpdf.pdf with PDF.js</a>
+	<script type="text/javascript">
+		
+		let aTag = document.getElementById("pdf-render");
+
+		aTag.click();
+	</script>
 </body>
 </html>
 
