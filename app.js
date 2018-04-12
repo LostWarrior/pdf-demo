@@ -1,4 +1,5 @@
-const url = "pdf/notes.pdf";
+
+const url = "pdfs/notes.pdf";
 
 // Loaded via <script> tag, create shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
